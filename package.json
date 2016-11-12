@@ -1,0 +1,35 @@
+{
+  "name": "ts-shard-cache",
+  "version": "1.0.0",
+  "description": "Sharded and tiered data structure",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/*",
+    "flow": "flow check",
+    "lint": "eslint . --ext .js"
+  },
+  "keywords": [
+    "data",
+    "tier",
+    "tiered",
+    "shard",
+    "sharded",
+    "time",
+    "series",
+    "db",
+    "database"
+  ],
+  "author": "Kristian Lyngbaek <klyngbaek@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.4.6"
+  },
+  "devDependencies": {
+    "eslint": "^3.7.1",
+    "flow-bin": "^0.33.0",
+    "tape": "^4.6.2"
+  },
+  "engines": {
+    "node": ">=4.2.3"
+  }
+}
